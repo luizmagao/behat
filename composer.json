@@ -1,0 +1,17 @@
+{
+    "name": "luizlins/cumcuber",
+    "autoload": {
+        "psr-4": {
+            "Luizlins\\Cumcuber\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luiz lins",
+            "email": "luizmagao@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "behat/behat": "^3.24"
+    }
+}
