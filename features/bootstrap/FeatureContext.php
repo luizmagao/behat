@@ -24,14 +24,14 @@ class FeatureContext implements Context
     {
     }
 
-    #[When('eu criar uma formacao com :arg1 palavra')]
-    public function euCriarUmaFormacaoComPalavra($arg1): void
+    #[When('eu criar uma formacao com a palavra :formacao')]
+    public function euCriarUmaFormacaoComApenasPalavra(string $formacao): void
     {
         throw new PendingException();
     }
 
-    #[Then('eu vou ver a seguinte mensagem de erro :arg1')]
-    public function euVouVerASeguinteMensagemDeErro($arg1): void
+    #[Then('eu vou ver a seguinte mensagem de erro :mensagemErro')]
+    public function euVouVerASeguinteMensagemDeErro(string $mensagemErro): void
     {
         throw new PendingException();
     }
@@ -48,8 +48,8 @@ class FeatureContext implements Context
         throw new PendingException();
     }
 
-    #[Then('eu busco no banco, devo encontro essa formacao')]
-    public function euBuscoNoBancoDevoEncontroEssaFormacao(): void
+    #[Then('se eu buscar no banco, devo encontrar essa formacao')]
+    public function seEuBuscarNoBancoDevoEncontrarEssaFormacao(): void
     {
         throw new PendingException();
     }
